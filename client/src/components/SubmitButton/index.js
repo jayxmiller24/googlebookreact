@@ -23,7 +23,7 @@ function SubmitButton(props){
       }
     return (
         <span className="btn btn-warning submit-btn" {...props} role="button" tabIndex="0" onClick={() => saveData(props.bookid, props.booktitle, props.bookauthor, props.bookdescriptions, props.bookinfo, props.bookimage)}>
-          Submit Button
+          Add Book
         </span>
       );
 
