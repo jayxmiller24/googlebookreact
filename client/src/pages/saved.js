@@ -58,7 +58,7 @@ class Saved extends Component {
                             <img src = {results.bookImg} alt={results.title} />
                             <h5>Description:{results.description}</h5>
                             <h5><a href={results.bookInfo}>Link</a></h5>
-                            <DeleteBtn onClick={() => this.deleteBook(results.id)}/>
+                            <DeleteBtn onClick={() => this.deleteBook(results._id)}/>
                         </li>
                     ))}
 
