@@ -4,8 +4,9 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <a className="navbar-brand" href="/books">
-        saved
+        saved 
       </a>
+      <a className="navbar-brand" href="/">Home Page</a>
     </nav>
   );
 }
